@@ -36,9 +36,9 @@ checksum = "b62516516cca5137e51e66287f227af39d5e86c0db9295e5e39887acf6aab99d"
 
 [[package]]
 name = "sbs-api-macro"
-version = "0.1.11"
+version = "0.1.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f733463657e66c67e96f7c389c5a325ec0667fc5a17287bbdf3b556ee24087e1"
+checksum = "5a2488a2520f34993b04bc6728a6fd9ec6460480a72c698056cc08257c45ef5e"
 dependencies = [
  "quote",
  "sbs-api-internal",
