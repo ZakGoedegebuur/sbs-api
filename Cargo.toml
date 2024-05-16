@@ -1,6 +1,6 @@
 [package]
 name = "sbs-api"
-version = "0.1.12"
+version = "0.1.13"
 edition = "2021"
 license = "MIT"
 description = "Simple binary serialization api"
@@ -11,4 +11,4 @@ repository = "https://github.com/ZakGoedegebuur/sbs-api"
 
 [dependencies]
 sbs-api-internal = "0.1.1"
-sbs-api-macro = "0.1.0"
+sbs-api-macro = "0.1.12"
