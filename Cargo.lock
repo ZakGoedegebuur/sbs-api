@@ -24,28 +24,32 @@ dependencies = [
 name = "sbs-api"
 version = "0.1.0"
 dependencies = [
- "serialize-internal",
- "serialize-macro",
+ "sbs-api-internal",
+ "sbs-api-macro",
 ]
 
 [[package]]
-name = "serialize-internal"
-version = "0.1.0"
+name = "sbs-api-internal"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b62516516cca5137e51e66287f227af39d5e86c0db9295e5e39887acf6aab99d"
 
 [[package]]
-name = "serialize-macro"
-version = "0.1.0"
+name = "sbs-api-macro"
+version = "0.1.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f733463657e66c67e96f7c389c5a325ec0667fc5a17287bbdf3b556ee24087e1"
 dependencies = [
  "quote",
- "serialize-internal",
+ "sbs-api-internal",
  "syn",
 ]
 
 [[package]]
 name = "syn"
-version = "2.0.61"
+version = "2.0.63"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c993ed8ccba56ae856363b1845da7266a7cb78e1d146c8a32d54b45a8b831fc9"
+checksum = "bf5be731623ca1a1fb7d8be6f261a3be6d3e2337b8a1f97be944d020c8fcb704"
 dependencies = [
  "proc-macro2",
  "quote",

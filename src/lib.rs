@@ -1,5 +1,5 @@
-pub use serialize_internal::{ SBI, Serialize, DeSerialize };
-pub use serialize_macro::{ Serialize, DeSerialize };
+pub use sbs_api_internal::{ SBI, Serialize, DeSerialize };
+pub use sbs_api_macro::{ Serialize, DeSerialize };
 
 #[cfg(test)]
 mod tests {
