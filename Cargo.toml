@@ -1,0 +1,10 @@
+[package]
+name = "sbs-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serialize-internal = { path = "./serialize-internal" }
+serialize-macro = { path = "./serialize-macro" }
