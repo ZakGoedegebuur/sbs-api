@@ -22,7 +22,7 @@ dependencies = [
 
 [[package]]
 name = "sbs-api"
-version = "0.1.13"
+version = "0.1.14"
 dependencies = [
  "sbs-api-internal",
  "sbs-api-macro",
@@ -36,9 +36,9 @@ checksum = "b62516516cca5137e51e66287f227af39d5e86c0db9295e5e39887acf6aab99d"
 
 [[package]]
 name = "sbs-api-macro"
-version = "0.1.12"
+version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a2488a2520f34993b04bc6728a6fd9ec6460480a72c698056cc08257c45ef5e"
+checksum = "da889c9d376bcb8cc15b435e617f6c4658b13f7407f9e8a0b7f9ae26cbd4db56"
 dependencies = [
  "quote",
  "sbs-api-internal",
